@@ -27,7 +27,7 @@ pip install pandas requests
 ### Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/historical-gdp-fetcher.git
+git clone https://github.com/alouatiq/historical-gdp-fetcher.git
 cd historical-gdp-fetcher
 ```
 
