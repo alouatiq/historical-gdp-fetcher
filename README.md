@@ -45,6 +45,9 @@ The script will create a CSV file named `historical_gdp_data.csv` in the reposit
 
 ### fetch_gdp.py
 
+Link to the [fetch_gdp Script](https://github.com/alouatiq/historical-gdp-fetcher/blob/main/fetch_gdp.py).
+
+For more detailed explanation, please refer to the [Script Explanation](https://github.com/alouatiq/historical-gdp-fetcher/blob/main/ScriptExplained).
 
 ## Script Details
 
