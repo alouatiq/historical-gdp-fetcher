@@ -1,0 +1,23 @@
+## Explanation of the Script
+
+This script is designed to fetch and compile historical GDP data for a specified list of countries over a given range of years. Below is a detailed explanation of each part of the script.
+
+### Import Libraries
+
+- **pandas**: Used for creating and manipulating the DataFrame.
+- **requests**: Used to make API calls to the World Bank.
+
+### Define Countries and Years
+
+- **Countries**: A list of country codes (ISO 3166-1 alpha-3) for the countries of interest.
+- **Years**: A list of years from 1900 to 2024.
+
+### Function to Fetch GDP Data
+
+The function `fetch_gdp_data` is defined to fetch GDP data for a specific country:
+- **Input**: Takes a country code as input.
+- **Process**:
+  - Constructs the API URL.
+  - Sends a GET request to the World Bank API.
+  - If the request is successful, it parses the JSON response to extract the year and GDP value.
+- **Output**: Returns a dictionary where
